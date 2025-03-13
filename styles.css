@@ -1,0 +1,114 @@
+body {
+    padding-top: 56px;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(-45deg, #1f59af, #4a90e2, #6a11cb, #2575fc);
+    background-size: 400% 400%;
+    animation: gradientAnimation s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#home {
+    background: radial-gradient(circle at 50% 50%, #2662d1, #b6d6f2, #f3d9b3, #df7878);
+    background-size: 200% 200%;
+    animation: radialGradientAnimation 3s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    background: radial-gradient(circle at 50% 50%, #012568, #b6d6f2, #f3d9b3, #b22929);
+    background-size: 200% 200%;
+    animation: radialGradientAnimation 12s ease infinite;
+}
+
+#featured-projects {
+    background: radial-gradient(circle at 50% 50%, #b22929, #f3d9b3, #b6d6f2, #54637f);
+    background-size: 200% 200%;
+    animation: radialGradientAnimation 12s ease infinite;
+}
+
+#skills{
+    background: radial-gradient(circle at 50% 50%, #012568, #b6d6f2, #f3d9b3, #cbabab);
+    background-size: 200% 200%;
+    animation: radialGradientAnimation 12s ease infinite;
+}
+
+#education-experience {
+    background: radial-gradient(circle at 50% 50%, #b22929, #f3d9b3, #b6d6f2, #a3aec1);
+    background-size: 200% 200%;
+    animation: radialGradientAnimation 3s ease infinite;
+}
+
+#projects {
+    background: radial-gradient(circle at 50% 50%, #012568, #b6d6f2, #f3d9b3, #e4c2c2);
+    background-size: 200% 200%;
+    animation: radialGradientAnimation 12s ease infinite;
+}
+
+#contact {
+    background: radial-gradient(circle at 50% 50%, #e7afaf, #f3d9b3, #b6d6f2, #99a9c7);
+    background-size: 200% 200%;
+    animation: radialGradientAnimation 3s ease infinite;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(173, 128, 128, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    background: linear-gradient(135deg, rgba(97, 107, 122, 0.8), #bebfc0);
+}
+
+.carousel-item img {
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ffffff; 
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffd700; 
+}
+
+.mt-6 {
+    margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+
+    h1.display-4 {
+        font-size: 2.5rem;
+    }
+
+    h2.display-5 {
+        font-size: 2rem;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
