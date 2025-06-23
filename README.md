@@ -17,7 +17,7 @@ I specialize in creating interactive, user-friendly, and visually engaging websi
 📩 Get In Touch
 I'm open to collaborations and new opportunities! Feel free to explore my work, contact me, or connect on GitHub and LinkedIn.
 
-🔗 Portfolio Live Link: your-username.github.io/personal-website
+🔗 Portfolio Live Link: davidgeisler.github.io/personal-website
 📧 Email: davidgeislermahayag2203@gmail.com
 📍 Location: Quezon City, Philippines
 
